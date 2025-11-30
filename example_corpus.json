@@ -1,0 +1,22 @@
+[
+  {"id":1,"question":"What time is it in Tel Aviv now?","expected_type":"everyday","notes":"Practical timezone question."},
+  {"id":2,"question":"How long does it take light to travel from the Sun to Earth?","expected_type":"everyday","notes":"Factual science question."},
+  {"id":3,"question":"How does Einstein's view of time differ from Newton's?","expected_type":"conceptual","expected_categories":["Chronological time","Mathematical time","Metaphysical time"]},
+  {"id":4,"question":"Is time real or just an illusion?","expected_type":"conceptual","expected_categories":["Metaphysical time"]},
+  {"id":5,"question":"Can time be divided into discrete frames?","expected_type":"conceptual","expected_categories":["Discrete time","Mathematical time"]},
+  {"id":6,"question":"Why do we have time zones?","expected_type":"everyday","notes":"Practical/organizational explanation."},
+  {"id":7,"question":"Does the universe operate in cycles (Big Crunch/Big Bang)?","expected_type":"conceptual","expected_categories":["Cosmological cyclical time"]},
+  {"id":8,"question":"How should I schedule meetings across teams in New York and London?","expected_type":"everyday","notes":"Practical scheduling advice."},
+  {"id":9,"question":"What does 'before' and 'after' mean in relativity?","expected_type":"conceptual","expected_categories":["Chronological time","Mathematical time"]},
+  {"id":10,"question":"Is a calendar a form of cosmological cyclical time or measured cyclical time?","expected_type":"conceptual","expected_categories":["Measured cyclical time","Cosmological cyclical time"]},
+  {"id":11,"question":"When will my package arrive?","expected_type":"everyday","notes":"Logistics — short answer or follow‑up needed to get tracking info."},
+  {"id":12,"question":"If time is just a parameter in equations, does that mean it isn't real?","expected_type":"conceptual","expected_categories":["Mathematical time","Metaphysical time"]},
+  {"id":13,"question":"How do clocks keep time so accurately?","expected_type":"everyday","notes":"Technical but practical (atomic clocks)."},
+  {"id":14,"question":"Are biological rhythms evidence of discrete or cyclical time?","expected_type":"conceptual","expected_categories":["Measured cyclical time","Discrete time"]},
+  {"id":15,"question":"Compare Aristotle and Kant on time.","expected_type":"conceptual","expected_categories":["Metaphysical time","Chronological time"]},
+  {"id":16,"question":"How long do I need to simmer the sauce?","expected_type":"everyday","notes":"Cooking question."},
+  {"id":17,"question":"Could quantum gravity imply time is emergent?","expected_type":"conceptual","expected_categories":["Mathematical time","Metaphysical time"]},
+  {"id":18,"question":"Is 'time' the same concept in different languages?","expected_type":"conceptual","expected_categories":["Metaphysical time","Measured cyclical time"]},
+  {"id":19,"question":"When does daylight saving time start this year?","expected_type":"everyday","notes":"Practical calendar query."},
+  {"id":20,"question":"What's the difference between 'time' and 'duration'?","expected_type":"conceptual","expected_categories":["Chronological time","Metaphysical time"]}
+]
