@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Weather Dashboard</h1>
+
+    <section class="controls">
+      <input id="city-input" type="text" placeholder="Enter city (e.g., London)" />
+      <select id="units-select">
+        <option value="metric">Metric (°C)</option>
+        <option value="imperial">Imperial (°F)</option>
+        <option value="standard">Kelvin</option>
+      </select>
+      <button id="search-btn">Search</button>
+    </section>
+
+    <section id="error" class="hidden"></section>
+
+    <section id="current" class="card hidden">
+      <h2 id="current-city"></h2>
+      <div id="current-main" class="row">
+        <div id="current-icon"></div>
+        <div id="current-details"></div>
+      </div>
+    </section>
+
+    <section id="forecast" class="card hidden">
+      <h3>5-day forecast (daily summary)</h3>
+      <div id="forecast-cards" class="forecast-grid"></div>
+    </section>
+
+    <footer class="footer">Powered by OpenWeatherMap • Built by you</footer>
+  </main>
+
+  <!-- If using static mode, set OPENWEATHER_API_KEY below (replace YOUR_API_KEY) -->
+  <!-- <script>window.OPENWEATHER_API_KEY = 'YOUR_API_KEY';</script> -->
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
